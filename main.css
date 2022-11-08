@@ -1,0 +1,54 @@
+/* Digital Clock */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* background color Forest Green */
+  --background-color: #2C5F2D;
+  /* container color  Moss Green */
+  --container-color: #97BC62FF;
+  /* font family */
+  --font-family: Arial, Helvetica, sans-serif;
+  /* font color */
+  --font-color: #2C5F2D;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.Container {
+  background-color: var(--container-color);
+  font-family: var(--font-family);
+  color: var(--font-color);
+  font-weight: bold;
+  font-size: 30px;
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.Title {
+  line-height: 150px;
+}
+
+.Box-time {
+  display: inline;
+  font-size: 50px;
+}
+
+.Heart a {
+  font-size: 15px;
+  color: var(--font-color);
+  text-decoration: none;
+}
